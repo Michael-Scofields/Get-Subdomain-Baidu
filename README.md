@@ -4,8 +4,10 @@
 
 ## Usage 
 python GetSubdomain.py [TARGET]
+
 python GetSubdomain.py xxx.com
 
 ## Result
 TARGET.txt
+
 xxx.com.txt

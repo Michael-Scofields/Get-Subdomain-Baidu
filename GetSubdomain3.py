@@ -6,7 +6,7 @@ import sys
 import os
 
 '''
-description:基于百度云观测接口获取子域名(Python2)
+description:基于百度云观测接口获取子域名(Python3)
 Src:http://ce.baidu.com/index/getRelatedSites?site_address=xxx.xxx
 '''
 
