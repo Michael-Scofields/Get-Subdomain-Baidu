@@ -12,7 +12,7 @@ Src:http://ce.baidu.com/index/getRelatedSites?site_address=xxx.xxx
 
 
 def GetSubdomain(domain):
-    url = 'http://ce.baidu.com/index/getRelatedSites?site_address=%s' % domain
+    url = "http://ce.baidu.com/index/getRelatedSites?site_address={}".format(domain)
     res = urllib.request.urlopen(url).read()
     return res
 
@@ -30,7 +30,7 @@ def DownSubdomain(domain_json, outfile):
 
 if __name__ == '__main__':
     if len(sys.argv) != 2:
-        print ('Usag: python GetSubdomain.py xxx.com')
+        print ("Usage: python GetSubdomain.py xxx.com")
         exit()
 
     target_domain = sys.argv[1]
