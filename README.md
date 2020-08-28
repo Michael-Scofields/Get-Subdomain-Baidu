@@ -1,5 +1,5 @@
 # Get-Subdomain-Baidu
-## 百度云观测接口
+## 百度云观测接口快速获取子域名列表
 基于百度云观测接口获取子域名(Python2|Python3)
 
 ## Usage 
